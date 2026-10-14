@@ -8,7 +8,7 @@ import Listing from "../models/listingModel.js";
 
         if (!listing) {
             // return res.status(404).json({
-                status: false,
+                // status: false,
                 message: "Listing not found"
             });
         }
