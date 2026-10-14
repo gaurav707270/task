@@ -13,7 +13,7 @@ import Listing from "../models/listingModel.js";
             });
         }
 
-        return res.status(200).json({
+        // return res.status(200).json({
             status: true,
             message: "Listing fetched successfully",
             data: listing
