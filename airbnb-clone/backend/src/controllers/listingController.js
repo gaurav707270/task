@@ -7,7 +7,7 @@ import Listing from "../models/listingModel.js";
         const listing = await Listing.findOne();
 
         if (!listing) {
-            return res.status(404).json({
+            // return res.status(404).json({
                 status: false,
                 message: "Listing not found"
             });
