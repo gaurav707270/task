@@ -4,7 +4,7 @@ function BookingCard() {
 
     const { listing } = useSelector((state) => state.listing);
 
-    if (!listing) {
+    // if (!listing) {
         return null;
     }
 
