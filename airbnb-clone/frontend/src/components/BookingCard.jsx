@@ -2,7 +2,7 @@ import { useSelector } from "react-redux";
 
 function BookingCard() {
 
-    const { listing } = useSelector((state) => state.listing);
+    // const { listing } = useSelector((state) => state.listing);
 
     // if (!listing) {
         return null;
